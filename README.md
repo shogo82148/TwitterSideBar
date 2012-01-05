@@ -41,6 +41,8 @@ Show off your favorite tweets!
 
 + type: 'faves'
 + user: Your User Name
++ title: Title
++ subject: Caption
 
 ### List ###
 Put your favorite tweeps into a list! 
@@ -48,6 +50,8 @@ Put your favorite tweeps into a list!
 + type: 'list'
 + user: Your User Name
 + list: List Name
++ title: Title
++ subject: Caption
 
 ## Common Settings ##
 
