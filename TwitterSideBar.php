@@ -96,7 +96,7 @@ class TwitterSideBar {
       'scrollbar: true,'.
       'loop: false,'.
       'live: false,'.
-      'behavior: "'.$wgTwitterSideBarOptions['hehavior'].'"'.
+      'behavior: "'.$wgTwitterSideBarOptions['behavior'].'"'.
       '}';
     if($wgTwitterSideBarOptions['type']=='profile') {
       $bar['TwitterSideBar'] .= '}).render().setUser("'.$wgTwitterSideBarOptions['user'].'").start();</script>';
